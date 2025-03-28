@@ -5,6 +5,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        //probl1();
+
+        RandomWordGenerator.generareFisierRandom();
+    }
+
+    static void probl1() {
         String inputFile = "in.txt";
         String outputFile = "out.txt";
         try {
